@@ -13,11 +13,11 @@ public class Estacion {
 		if (num >= 1 && num <= 4) {
 			switch (num) {
 			case 1:
-				estacion = "verano";
+				estacion = "primavera";
 				System.out.println("La estación es " + estacion);
 				break;
 			case 2:
-				estacion = "primavera";
+				estacion = "verano";
 				System.out.println("La estación es " + estacion);
 				break;
 			case 3:
