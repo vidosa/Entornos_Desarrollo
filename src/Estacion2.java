@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Estaciones2 {
+public class Estacion2 {
 
 	public static void main(String[] args) {
 		int num = 0;
 		String estacion = "verano";
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("Escribe un número entre 1 y 12");
+		System.out.println("Escribe el número de un mes entre 1 y 12");
 		num = entrada.nextInt();
 
 		if (num >= 1 && num <= 12) {
@@ -34,7 +34,7 @@ public class Estaciones2 {
 			case 1:
 			case 2:
 				estacion="invierno";
-				System.out.println("La estación es invierno");
+				System.out.println("La estación es "+ estacion);
 				break;
 			}
 		} else {

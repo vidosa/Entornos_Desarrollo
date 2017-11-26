@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class Estaciones {
+public class Estacion {
 
 	public static void main(String[] args) {
 		int num = 0;
+		String estacion = "verano";
 		Scanner entrada = new Scanner(System.in);
 
 		System.out.println("Escribe un número entre 1 y 4");
@@ -12,16 +13,20 @@ public class Estaciones {
 		if (num >= 1 && num <= 4) {
 			switch (num) {
 			case 1:
-				System.out.println("La estación es verano");
+				estacion = "verano";
+				System.out.println("La estación es " + estacion);
 				break;
 			case 2:
-				System.out.println("La estación es primavera");
+				estacion = "primavera";
+				System.out.println("La estación es " + estacion);
 				break;
 			case 3:
-				System.out.println("La estación es otoño");
+				estacion = "otoño";
+				System.out.println("La estación es " + estacion);
 				break;
 			case 4:
-				System.out.println("La estación es invierno");
+				estacion = "invierno";
+				System.out.println("La estación es " + estacion);
 				break;
 			}
 		} else {
