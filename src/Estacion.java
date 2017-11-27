@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+ * Programa que determina la estación del año en función de un número
+ * */
+
 public class Estacion {
 
 	public static void main(String[] args) {
@@ -7,7 +11,7 @@ public class Estacion {
 		String estacion = "verano";
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("Escribe un número entre 1 y 4");
+		System.out.println("Escribe escribe el número de la estación entre 1 y 4");
 		num = entrada.nextInt();
 
 		if (num >= 1 && num <= 4) {
@@ -30,7 +34,7 @@ public class Estacion {
 				break;
 			}
 		} else {
-			System.out.println(num + " no es un número correcto");
+			System.out.println(num + " no es un número de estación correcto");
 		}
 
 	}

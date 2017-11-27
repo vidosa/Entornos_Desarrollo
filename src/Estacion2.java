@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+ * Programa que determina la estación del año en función del mes. 
+ * */
+
 public class Estacion2 {
 
 	public static void main(String[] args) {
@@ -15,34 +19,32 @@ public class Estacion2 {
 			case 3:
 			case 4:
 			case 5:
-				estacion="primavera";
-				System.out.println("La estación es "+ estacion);
+				estacion = "primavera";
+				System.out.println("La estación es " + estacion);
 				break;
 			case 6:
 			case 7:
 			case 8:
-				estacion="verano";
-				System.out.println("La estación es "+ estacion);
+				estacion = "verano";
+				System.out.println("La estación es " + estacion);
 				break;
 			case 9:
 			case 10:
-				estacion="otoño";
-				System.out.println("La estación es "+ estacion);
+				estacion = "otoño";
+				System.out.println("La estación es " + estacion);
 				break;
 			case 11:
 			case 12:
 			case 1:
 			case 2:
-				estacion="invierno";
-				System.out.println("La estación es "+ estacion);
+				estacion = "invierno";
+				System.out.println("La estación es " + estacion);
 				break;
 			}
 		} else {
-			System.out.println(num + " no es un número correcto");
+			System.out.println(num + " no es un mes correcto correcto");
 		}
 
 	}
 
-	}
-
-
+}

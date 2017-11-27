@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+ * Programa que determina el tipo de clima según la temperatura
+ * */
+
 public class Clima {
 
 	public static void main(String[] args) {
